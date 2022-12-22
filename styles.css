@@ -11,7 +11,7 @@
   --main-font: "Poppins", sans-serif;
   --font-size-extratiny: clamp(0.50rem, calc(0.42rem + 0.42vw), 0.75rem);
   --font-size-tiny: clamp(0.60rem, calc(0.49rem + 0.56vw), 0.94rem);
-  --font-size-extrasmall: clamp(0.72rem, calc(0.57rem + 0.75vw), 1.17rem);
+  --font-size-extrasmall: clamp(1.1rem, calc(0.57rem + 0.75vw), 1.17rem);
   --font-size-small: clamp(0.86rem, calc(0.66rem + 1.00vw), 1.47rem);
   --font-size-medium: clamp(1.04rem, calc(0.77rem + 1.32vw), 1.83rem);
   --font-size-large: clamp(1.24rem, calc(0.90rem + 1.74vw), 2.29rem);
@@ -441,6 +441,7 @@ span {
 }
 
 .contact-card .small-cards__list .small-card .small-card__content {
+  font-size: var(--font-size-extrasmall);
   display: flex;
   flex-direction: column;
   gap: 1rem;
